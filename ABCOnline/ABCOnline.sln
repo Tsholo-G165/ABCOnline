@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCOnline.Core", "ABCOnline.Core\ABCOnline.Core.csproj", "{BBA57096-EF4F-42CB-8ADC-FEC2063FF370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCOnline.Services", "ABCOnline.Services\ABCOnline.Services.csproj", "{EA08ABAA-AF79-412E-9F80-6E5901D3DCF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCOnline.DataAccess.SQL", "ABCOnline.DataAccess.SQL\ABCOnline.DataAccess.SQL.csproj", "{984BABD3-FE47-4BD9-B252-76FCBF619761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCOnline.DataAccess.InMemory", "ABCOnline.DataAccess.InMemory\ABCOnline.DataAccess.InMemory.csproj", "{77B2FAEF-D226-4EF4-AE43-8BCB888D0E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCOnline.WebUI", "ABCOnline.WebUI\ABCOnline.WebUI.csproj", "{48683668-5435-4C91-A137-271CD5E1B6F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCOnline.WebUI.Tests", "ABCOnline.WebUI.Tests\ABCOnline.WebUI.Tests.csproj", "{8086F612-BEF7-4437-88A1-EE5C802B3528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBA57096-EF4F-42CB-8ADC-FEC2063FF370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA57096-EF4F-42CB-8ADC-FEC2063FF370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA57096-EF4F-42CB-8ADC-FEC2063FF370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA57096-EF4F-42CB-8ADC-FEC2063FF370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA08ABAA-AF79-412E-9F80-6E5901D3DCF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA08ABAA-AF79-412E-9F80-6E5901D3DCF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA08ABAA-AF79-412E-9F80-6E5901D3DCF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA08ABAA-AF79-412E-9F80-6E5901D3DCF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984BABD3-FE47-4BD9-B252-76FCBF619761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984BABD3-FE47-4BD9-B252-76FCBF619761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984BABD3-FE47-4BD9-B252-76FCBF619761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984BABD3-FE47-4BD9-B252-76FCBF619761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B2FAEF-D226-4EF4-AE43-8BCB888D0E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B2FAEF-D226-4EF4-AE43-8BCB888D0E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B2FAEF-D226-4EF4-AE43-8BCB888D0E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B2FAEF-D226-4EF4-AE43-8BCB888D0E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48683668-5435-4C91-A137-271CD5E1B6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48683668-5435-4C91-A137-271CD5E1B6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48683668-5435-4C91-A137-271CD5E1B6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48683668-5435-4C91-A137-271CD5E1B6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8086F612-BEF7-4437-88A1-EE5C802B3528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8086F612-BEF7-4437-88A1-EE5C802B3528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8086F612-BEF7-4437-88A1-EE5C802B3528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8086F612-BEF7-4437-88A1-EE5C802B3528}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DB1FB02-EDD1-4378-8CB6-6131EAC22AFF}
+	EndGlobalSection
+EndGlobal
